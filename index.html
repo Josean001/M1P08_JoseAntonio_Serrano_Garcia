@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <!-- PRACTICA 8 -->
+        <meta name="copyright" content="© Jose Antonio Serrano García">
+        <!-- Autor -->
+        <meta name="author" content="Jose Antonio Serrano García">
+        <!-- Descripción -->
+        <meta name="description" content="Practica 2 de HTML">
+        <!-- Palabras claves -->
+        <meta name="keywords" content="practica,2,jose,developer">
+        <!-- Modelo de cifrado -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titulo del la página web -->
+        <title>Práctica 8</title>
+        <style>
+            table{
+                width: 80%; /* Ancho del 80% de la pantalla */
+                border-collapse: collapse; /* Colapsa los bordes para que se vean como uno solo */
+                margin: 20px auto; /* Centrar la tabla horizontalmente */
+                font-family: Arial, sans-serif; /* Cambia el tipo de letra */
+            }
+
+            table,th,td{
+                border: 2px solid blue; /* Borde de color azul */
+            }
+
+            th,td{
+                text-align: center; /* Centrar el texto en todas las celdas */
+            }
+
+            th{
+                font-size: 26px; /* Tamaño de letra para los encabezados */
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Creamos una tabla -->
+        <table>
+            <!-- Nueva fila superior que abarca 3 columnas -->
+            <tr>
+                <th colspan="3">Continentes y sus países</th>
+            </tr>
+            <!-- Estructura de de la primera linea de la tabla -->
+            <tr>
+                <!-- Le incamos que queremos el texto encabezado con "th" que lo que realiza
+                que se ponga el texto en negrita y centrado.-->
+                <th>Europa</th>
+                <th>Asia</th>
+                <th>America</th>
+            </tr>
+            <tr>
+                <!-- Con "td" lo que hacemos que es crear una nueva linea en la tabla. -->
+                <td>Alemania</td>
+                <td>Japon</td>
+                <td>Brasil</td>
+            </tr>
+            <tr>
+                <td>España</td>
+                <td>China</td>
+                <td>Argentina</td>
+            </tr>
+            <tr>
+                <td>Portugal</td>
+                <td>India</td>
+                <td>México</td>
+            </tr>
+        </table>
+    </body>
+</html>
